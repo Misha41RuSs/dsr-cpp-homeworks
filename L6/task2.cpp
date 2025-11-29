@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "arrayTools.cpp"
+#include "arrayTools.h"
 
 void selectionSort(int*, int);
 

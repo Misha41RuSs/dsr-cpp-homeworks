@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "arrayTools.cpp"
+#include "arrayTools.h"
 
 using namespace std;
 
@@ -34,8 +34,6 @@ void bubbleSort(int* arr, int size) {
         else isSorted = true;
     }
 }
-
-
 
 int binarySearch(int* arr, int size, int el) {
     int left = 0;
